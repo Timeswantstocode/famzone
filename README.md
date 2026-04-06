@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header with Professional Waving Red Theme -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=dc2626,ef4444,000000&height=220&section=header&text=FAM%20Zone&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Advanced%20Digital%20Asset%20Orchestration%20System&descAlignY=55&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=dc2626,ef4444,000000&height=220&section=header&text=FAM%20Zone&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=High-Performance%20Media%20%26%20Sports%20Dashboard&descAlignY=55&descSize=20" width="100%" />
 
 <br />
 
@@ -26,7 +26,7 @@
 
 <br /><br />
 
-**FAM Zone** is a sophisticated digital asset orchestration ecosystem. It provides a centralized control plane for **real-time sports analytics**, **unified metadata orchestration**, and **automated event scheduling** within a high-performance, reactive interface.
+**FAM Zone** is a premium media and sports dashboard. It acts as a unified hub for **real-time sports updates**, **complete movie & series info**, and **automated schedules**—all inside a fast, dark-themed interface.
 
 </div>
 
@@ -75,9 +75,9 @@ Sub-second score synchronization, live tactical analytics, and dynamic SVG forma
 
 <img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/clapperboard.png" />
 
-### 🎬 Unified Metadata Engine
+### 🎬 Universal Media Hub
 
-Deep metadata integration with distributed asset delivery networks, cross-device state persistence, and session synchronization.
+Deep metadata for movies and series with fast delivery, cross-device sync, and smart playback resume.
 
 </td>
 </tr>
@@ -138,12 +138,12 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 <summary><b>⚽ Sports Intelligence Pipeline</b> — Click to expand</summary>
 <br />
 
-| Technical Feature | Implementation Detail |
+| Feature | Description |
 |:--------|:------------|
-| 🔴 **Live Event Sync** | Real-time data synchronization with differential UI updates |
-| 📡 **Resource Provider Integration** | Intelligent request routing with failover resource management |
-| 📊 **Predictive Analytics** | Advanced metrics, tactical heatmaps, and key event timelines |
-| 👥 **Tactical Visualization** | Dynamic SVG rendering mapped to real-time asset positioning |
+| 🔴 **Live Updates** | Real-time score and event sync with smooth UI updates |
+| 📡 **Smart Routing** | Fast data fetching with automatic backup sources |
+| 📊 **Pro Analytics** | Match stats, tactical heatmaps, and live event timelines |
+| 👥 **Visual Tactics** | Dynamic SVG maps showing real-time player positions |
 
 </details>
 
@@ -151,12 +151,12 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 <summary><b>🎬 Asset Lifecycle Management</b> — Click to expand</summary>
 <br />
 
-| Technical Feature | Implementation Detail |
+| Feature | Description |
 |:--------|:------------|
-| 🎞️ **Unified Indexing** | Comprehensive metadata analysis via deep external API integration |
-| ▶️ **Distributed Asset Delivery** | Industry-standard implementation for network-aware bitrate switching |
-| ⏪ **Session Persistence** | Multi-device synchronization for sub-second accurate playback resume |
-| 📋 **Inventory States** | Granular digital asset inventory control (Active, Planned, Archived) |
+| 🎞️ **Unified Search** | Complete movie and series info from top external databases |
+| ▶️ **Fast Delivery** | High-quality video delivery with adaptive speed switching |
+| ⏪ **Sync Everywhere** | Save your progress and resume on any device instantly |
+| 📋 **Personal Library** | Organize your collection (Watching, Planned, Completed) |
 
 </details>
 
@@ -205,7 +205,7 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 <a href="https://supabase.com/"><img src="https://skillicons.dev/icons?i=supabase" width="48" title="Supabase" /></a>&nbsp;&nbsp;
 <a href="https://vercel.com/"><img src="https://skillicons.dev/icons?i=vercel" width="48" title="Vercel" /></a>&nbsp;&nbsp;
 <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" width="48" title="Node.js" /></a>&nbsp;&nbsp;
-<a href="https://ai.google.dev/"><img src="https://skillicons.dev/icons?i=gemini" width="48" title="Google Gemini" /></a>&nbsp;&nbsp;
+<a href="https://ai.google.dev/"><img src="https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white" height="48" title="Google Gemini" /></a>&nbsp;&nbsp;
 <a href="https://graphql.org/"><img src="https://skillicons.dev/icons?i=graphql" width="48" title="GraphQL" /></a>&nbsp;&nbsp;
 <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" width="48" title="Redis" /></a>
 
@@ -308,7 +308,7 @@ This repository is a private development focused on Next.js performance patterns
 
 <!-- GitHub Stats & Streak (Red Themed / Neutral Background) -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Timeswantstocode&show_icons=true&theme=transparent&title_color=dc2626&icon_color=dc2626&text_color=ffffff&bg_color=000000&hide_border=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Timeswantstocode&show_icons=true&theme=transparent&title_color=dc2626&icon_color=dc2626&text_color=ffffff&bg_color=000000&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Timeswantstocode&theme=transparent&fire=dc2626&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&currStreakLabel=dc2626&stroke=dc2626&hide_border=true&background=000000" height="150" alt="GitHub Streak" />
 </p>
 
@@ -319,10 +319,10 @@ This repository is a private development focused on Next.js performance patterns
 
 **Developed with ❤️ by [Timeswantstocode](https://github.com/Timeswantstocode)**
 
-*An Enterprise-Grade Digital Asset Orchestration Backbone.*
+*A Universal Media & Sports Dashboard.*
 
 
-*FAM Zone — Unified analytics and metadata orchestration.*
+*FAM Zone — Your hub for real-time sports and media info.*
 </div>
 </div>
 
