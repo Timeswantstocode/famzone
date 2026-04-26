@@ -23,10 +23,11 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 
 <br /><br />
 
-**FAM Zone** is a premium, full-stack media aggregation infrastructure. It serves as a unified dashboard that orchestrates **real-time sports analytics**, **multi-source metadata**, and **automated scheduling** into a cohesive, high-performance dark-themed interface. 
+**FAM Zone** is a premium, full-stack media aggregation infrastructure. It serves as a unified dashboard that orchestrates **real-time sports analytics**, **multi-source metadata**, and **AI-driven narrative reconstruction** into a cohesive, high-performance dark-themed interface. 
 
 </div>
 
@@ -65,13 +66,24 @@ Deep TMDB integration with adaptive HLS playback pipelines, cross-device state p
 <tr>
 <td width="50%" align="center">
 
-<img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/retro-tv.png" />
+<img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/conference-call.png" />
 
-### 🎌 Reactive Scheduling
+### 🎉 Playback Orchestration
 
-GraphQL-synced airing calendars with automated progress velocity tracking and multi-provider ID resolution.
+Real-time watch party system with synchronized media states, countdown triggers, and cross-device control.
 
 </td>
+<td width="50%" align="center">
+
+<img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/bot.png" />
+
+### 🤖 Generative Story Hub
+
+Gemini-powered narrative reconstruction ("The Librarian") providing contextual recaps and zero-spoiler cinematic hooks.
+
+</td>
+</tr>
+<tr>
 <td width="50%" align="center">
 
 <img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/search.png" />
@@ -79,17 +91,6 @@ GraphQL-synced airing calendars with automated progress velocity tracking and mu
 ### 🔍 Omnisearch Indexing
 
 Fuzzy-matching search architecture (<kbd>⌘ K</kbd>) providing instantaneous results across unified distributed data sources.
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-<img width="64" src="https://img.icons8.com/ios-filled/100/dc2626/bot.png" />
-
-### 🤖 LLM Discovery Agent
-
-Personalized discovery engine utilizing Google Gemini for semantic context analysis and structured JSON status reporting.
 
 </td>
 <td width="50%" align="center">
@@ -116,7 +117,20 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 </div>
 
 <details>
-<summary><b>⚽ Sports Data Pipeline</b> — Click to expand</summary>
+<summary><b>🤖 AI-Augmented Intelligence</b> — <i>Generative Narrative & Discovery</i></summary>
+<br />
+
+| Technical Feature | Implementation Detail |
+|:--------|:------------|
+| 📚 **The Librarian** | Context-aware narrative reconstruction for franchises and ongoing episode arcs |
+| 🧠 **Watchlist Summaries** | Persistent background analysis offering structured JSON status reports and progress velocity |
+| 🔍 **Semantic Discovery** | Recommendation engine utilizing recency signals and "Recently Watched" era context |
+| 🔔 **Predictive Airing Alerts** | Automated identification of high-relevance scheduling events for tracked items |
+
+</details>
+
+<details>
+<summary><b>⚽ Sports Data Pipeline</b> — <i>Real-time Orchestration</i></summary>
 <br />
 
 | Technical Feature | Implementation Detail |
@@ -129,33 +143,20 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 </details>
 
 <details>
-<summary><b>🎬 Media Lifecycle Management</b> — Click to expand</summary>
+<summary><b>🎬 Media Lifecycle Management</b> — <i>Infrastructure & Playback</i></summary>
 <br />
 
 | Technical Feature | Implementation Detail |
 |:--------|:------------|
 | 🎞️ **Metadata Indexing** | Comprehensive title analysis via deep external API integration |
+| 🎉 **Watch Parties** | Synchronized state management with real-time countdown and playback control |
 | ▶️ **Adaptive HLS Delivery** | Video.js 8 + HLS.js implementation for network-aware quality switching |
 | ⏪ **State Persistence** | Server-side and LocalStorage sync for sub-second accurate playback resume |
-| 📋 **Collection States** | Granular library management (Active, Planning, Completed, Dropped) |
 
 </details>
 
 <details>
-<summary><b>🤖 AI-Augmented Intelligence</b> — Click to expand</summary>
-<br />
-
-| Technical Feature | Implementation Detail |
-|:--------|:------------|
-| 🔍 **Semantic Discovery** | Context-aware recommendations based on historical library distribution |
-| 📊 **Generative Reporting** | Structured analysis of user activity velocity and completion trends |
-| 🧠 **Multi-Model Routing** | Token-efficient orchestration between Gemini Flash and Lite models |
-| 🔔 **Predictive Airing Alerts** | Automated identification of high-relevance scheduling events |
-
-</details>
-
-<details>
-<summary><b>🛠️ Core Infrastructure</b> — Click to expand</summary>
+<summary><b>🛠️ Core Infrastructure</b> — <i>Framework & Security</i></summary>
 <br />
 
 | Technical Feature | Implementation Detail |
@@ -195,9 +196,9 @@ Installable Progressive Web App featuring orientation locking, hardware-accelera
 | **Core Framework** | [Next.js 14](https://nextjs.org/) — App Router with React Server Components |
 | **Language** | [TypeScript 5.3](https://www.typescriptlang.org/) — End-to-end type safety |
 | **Backend / DB** | [Supabase](https://supabase.com/) — PostgreSQL with Realtime CDC |
-| **AI Intelligence** | [Google Gemini](https://ai.google.dev/) — Structured JSON reasoning and semantic discovery |
+| **AI Intelligence** | [Google Gemini](https://ai.google.dev/) — Structured JSON reasoning and narrative reconstruction |
 | **Video Engine** | [Video.js 8](https://videojs.com/) + [HLS.js](https://github.com/video-dev/hls.js/) |
-| **State Middleware** | [Zustand](https://github.com/pmndrs/zustand) with Persistent storage |
+| **State Middleware** | [Zustand](https://github.com/pmndrs/zustand) with Persistent storage & Real-time Sync |
 | **Notifications** | [Sonner](https://sonner.emilkowal.dev/) |
 | **Performance** | [LRU-Cache](https://github.com/isaacs/node-lru-cache) and Edge Function optimization |
 
@@ -251,7 +252,7 @@ FAM Zone is engineered with a focus on network security and frontend performance
 
 ## 📄 License & Development
 
-This repository is a private development focused on Next.js performance patterns and real-time data orchestration.
+This repository is a private development focused on Next.js performance patterns, real-time data orchestration, and generative AI integration.
 
 <br />
 
@@ -270,9 +271,6 @@ This repository is a private development focused on Next.js performance patterns
 
 *A Universal Media Aggregation Backbone.*
 
-
 *FAM Zone — Where every match, movie & anime lives under one roof.*
-</div>
-</div>
 
 </div>
