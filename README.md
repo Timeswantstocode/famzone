@@ -26,7 +26,7 @@
 
 <br /><br />
 
-**FAM (Internal) & FAM Zone (Public)** is a premium, all-in-one streaming aggregator dashboard - a sleek, lightning-fast hub that unifies **live football**, **movies**, **TV shows**, and **anime** into one beautiful dark-themed interface. Never miss a goal, an episode, or your place in a story again.
+**FAM Zone** is a premium, all-in-one streaming aggregator dashboard - a sleek, lightning-fast hub that unifies **live football**, **movies**, **TV shows**, and **anime** into one beautiful dark-themed interface. Never miss a goal, an episode, or your place in a story again.
 
 </div>
 
@@ -49,7 +49,7 @@
 
 ### 🏟️ Live Football
 
-Real-time scores, live stats, team lineups & multi-source streaming across **23+ leagues** worldwide
+Real-time scores, live stats, team lineups & multi-source streaming across **30 competitions** worldwide
 
 </td>
 <td width="50%" align="center">
@@ -58,7 +58,7 @@ Real-time scores, live stats, team lineups & multi-source streaming across **23+
 
 ### 🎬 Movies & TV
 
-Massive TMDB-powered library with HLS playback, subtitles, quality switching & resume support
+Massive TMDB-powered library streamed through curated embed providers, with position history on the primary source
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ AniList-synced library with airing schedules, genre filters, episode tracking & 
 
 ### 🤖 FAM AI & Story Hub
 
-Gemini-powered watchlist summaries, contextual recaps, and intelligent, personalized media discovery
+Gemini-powered watchlist summaries and recaps, plus AI-assisted discovery across movies, TV and anime
 
 </td>
 </tr>
@@ -135,10 +135,10 @@ Install as a native-like app on any device with a fully responsive, premium dark
 | Feature                       | Description                                                              |
 | :---------------------------- | :----------------------------------------------------------------------- |
 | 🔴 **Live Match Tracking**    | Real-time scores with auto-refresh for ongoing matches                   |
-| 📡 **Multi-Source Streaming** | Priority-routed streams (Admin, Echo, Alpha) with fallback               |
+| 📡 **Multi-Source Streaming** | Priority-ranked source tiers with automatic fallback                     |
 | 📊 **Match Statistics**       | Possession, shots, corners, fouls - all live                             |
 | 👥 **Team Lineups**           | Full formation visualization with player details                         |
-| 🌍 **23+ Leagues**            | Premier League, La Liga, Bundesliga, Serie A, Champions League, and more |
+| 🌍 **30 Competitions**        | Premier League, La Liga, Bundesliga, Serie A, Champions League, and more |
 | ⏱️ **Match Countdown**        | Countdown timers for upcoming fixtures                                   |
 
 </details>
@@ -150,9 +150,9 @@ Install as a native-like app on any device with a fully responsive, premium dark
 | Feature                   | Description                                                            |
 | :------------------------ | :--------------------------------------------------------------------- |
 | 🎞️ **Extensive Library**  | Browse thousands of titles via TMDB integration                        |
-| ▶️ **HLS Video Player**   | Adaptive streaming with quality selection & subtitle support           |
-| ⏪ **Resume Playback**    | Pick up exactly where you left off                                     |
-| 📋 **Watchlist**          | Personal list with status tracking (Watching, Completed, Paused, etc.) |
+| ▶️ **Provider Players**   | Ten curated embed sources; quality and subtitles come from the provider |
+| ⏪ **Resume Playback**    | Nxsha position history on the Hope source; other sources start fresh   |
+| 📋 **Watchlist**          | Personal list with statuses: Watching, Completed, On Hold, Dropped, Plan to Watch, Rewatching |
 | 🔥 **Trending & Popular** | Curated rows of what's hot right now                                   |
 | 🎠 **Hero Carousels**     | Cinematic featured content banners                                     |
 
@@ -179,7 +179,7 @@ Install as a native-like app on any device with a fully responsive, premium dark
 
 | Feature                   | Description                                           |
 | :------------------------ | :---------------------------------------------------- |
-| 🔍 **Global Search**      | <kbd>⌘ K</kbd> instant search across all categories   |
+| 🔍 **Global Search**      | <kbd>⌘ K</kbd> / <kbd>Ctrl K</kbd> instant search across anime, movies and TV |
 | 🎉 **Watch Parties**      | Invite friends and synchronize playback automatically |
 | 🕐 **Recently Watched**   | Quick-access row for your last-viewed media           |
 | 📜 **Watch History**      | Full history with resumable playback positions        |
@@ -216,20 +216,18 @@ Install as a native-like app on any device with a fully responsive, premium dark
 | Layer             | Technology                                                                                                               |
 | :---------------- | :----------------------------------------------------------------------------------------------------------------------- |
 | **Framework**     | [Next.js 16](https://nextjs.org/) - App Router with Server Components                                                    |
-| **Language**      | [TypeScript 5.3](https://www.typescriptlang.org/) - End-to-end type safety                                               |
+| **Language**      | [TypeScript 5.9](https://www.typescriptlang.org/) - End-to-end type safety                                               |
 | **UI**            | [React 19](https://react.dev/) + [Tailwind CSS 3](https://tailwindcss.com/)                                              |
 | **Database**      | [Supabase](https://supabase.com/) - PostgreSQL with Realtime subscriptions                                               |
-| **AI Engine**     | Next.js routes & Supabase functions: Google Gemini by default, or any OpenAI-compatible endpoint with multi-key rotation |
-| **Video**         | [Video.js 8](https://videojs.com/) + [HLS.js](https://github.com/video-dev/hls.js/)                                      |
+| **AI Engine**     | Next.js route handlers: Google Gemini by default, or any OpenAI-compatible endpoint with multi-key rotation              |
+| **Video**         | [Video.js 8](https://videojs.com/) for football + [HLS.js](https://github.com/video-dev/hls.js/) for anime               |
 | **Icons**         | [Lucide React](https://lucide.dev/)                                                                                      |
 | **Notifications** | [Sonner](https://sonner.emilkowal.dev/)                                                                                  |
-| **State**         | [Zustand](https://zustand-demo.pmnd.rs/) - Real-time state syncing (Watch Parties)                                       |
+| **State**         | [Zustand](https://zustand-demo.pmnd.rs/) local state + Supabase Realtime broadcast/presence (Watch Parties)              |
 | **Caching**       | [LRU-Cache](https://github.com/isaacs/node-lru-cache) with configurable TTLs                                             |
 | **Analytics**     | [Vercel Analytics](https://vercel.com/analytics)                                                                         |
-| **APIs**          | TMDB · AniList GraphQL · ESPN                                                                                            |
-| **Deployment**    | Vercel & Netlify                                                                                                         |
-
-> The Next.js routes and Supabase functions read the same AI provider vars; set them in both Vercel and the Supabase function secrets.
+| **APIs**          | TMDB · AniList GraphQL · Jikan · ESPN                                                                                    |
+| **Deployment**    | Vercel                                                                                                                   |
 
 </div>
 
@@ -256,7 +254,7 @@ Install as a native-like app on any device with a fully responsive, premium dark
 
 |  🇧🇷 Brazil  |   🇦🇷 Argentina   | 🇲🇽 Mexico |        🌍 International         | 🏆 European Cups |
 | :---------: | :--------------: | :-------: | :-----------------------------: | :--------------: |
-| Brasileirão | Liga Profesional |  Liga MX  | World Cup · Euro · Copa América | UCL · UEL · UECL |
+| Brasileirão | Liga Profesional |  Liga MX  | World Cup · Euro · Copa América · UEFA Nations League · CONCACAF Gold Cup · AFCON · AFC Asian Cup | UCL · UEL · UECL |
 
 </div>
 
@@ -289,7 +287,7 @@ FAM Zone is built with a focus on security and performance, featuring:
 
 ## 📄 License & Contributions
 
-This project is currently a private development for **FAM**. Its public-facing counterpart, **FAM Zone**, operates under the same robust architecture. Future open-source releases will be licensed under MIT.
+This project is not open source: no licence is granted and no LICENSE file is included. An MIT licence is planned for a future release.
 
 <br />
 
